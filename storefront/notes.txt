@@ -1,0 +1,12 @@
+This is the core folder of our program.
+
+Manage.py is wrapper around django-admin
+
+django-admin runserver
+ -> error: settings not configured
+ -> django-admin doesn't know about settings
+
+instead use python manage.py runserver
+
+or python manage.py runserver 5930
+ ->  (port)
